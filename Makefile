@@ -1,6 +1,6 @@
 NAME        = minishell
 
-SRCS        = parse.c\
+SRCS        = expand.c\
 
 OBJS        = $(SRCS:.c=.o)
 

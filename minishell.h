@@ -20,6 +20,7 @@
 #include <readline/readline.h>
 #include <readline/history.h>
 #include <stdbool.h>
+#include "./libft/libft.h"
 
 #define MAX_INPUT_SIZE 1024
 
@@ -30,6 +31,11 @@ typedef struct s_token
 	
 }	t_token;
 
+typedef struct s_prompt;
+{
+	char *command;
+	char *arg;
+}	t_prompt;
 
 typedef struct	s_minishell
 {
